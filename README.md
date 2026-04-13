@@ -18,7 +18,7 @@
 &nbsp;&nbsp;&nbsp; • Enjoy outdoor activities and cooking :cook: .\
 &nbsp;&nbsp;&nbsp; • Building a home lab with three servers using [Immich](https://immich.app/) and [Nextcloud](https://nextcloud.com/) for my family.
 <p align="center">
-  <a href="https://ulllie.github.io">
+  <a href="https://ulllie.github.io/ulllie">
     <img src="https://img.shields.io/badge/Website-ulllie.github.io-AE0BF4?style=for-the-badge&logo=microdotblog&logoColor=white&labelColor=8F09C8" alt="Personal Website"/>
   </a>
 </p>

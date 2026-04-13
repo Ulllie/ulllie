@@ -19,7 +19,7 @@
 &nbsp;&nbsp;&nbsp; • Развиваю home lab из 3 серверов с [Immich](https://immich.app/) и [Nextcloud](https://nextcloud.com/) для семьи.
 
 <p align="center">
-  <a href="https://ulllie.github.io">
+  <a href="https://ulllie.github.io/ulllie">
     <img src="https://img.shields.io/badge/Website-ulllie.github.io-AE0BF4?style=for-the-badge&logo=microdotblog&logoColor=white&labelColor=8F09C8" alt="Personal Website"/>
   </a>
 </p>

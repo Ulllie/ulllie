@@ -1,4 +1,4 @@
-baseURL = "https://ulllie.github.io/"
+baseURL = "https://ulllie.github.io/ulllie/"
 theme = "hugo-noir"
 
 defaultContentLanguage = "ru"
