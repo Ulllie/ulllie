@@ -1,0 +1,61 @@
+baseURL = "https://ulllie.github.io/"
+theme = "hugo-noir"
+
+defaultContentLanguage = "ru"
+defaultContentLanguageInSubdir = true
+
+[markup]
+defaultMarkdownHandler = "goldmark"
+
+[markup.goldmark.renderer]
+unsafe = true      # Разрешает «сырое» HTML: <ul>, <li>, <br> и прочее
+hardWraps = true   # Преобразует одиночные символы переноса строки в <br>
+
+
+# URL handling
+relativeURLs = false
+canonifyURLs = true
+
+[languages.en]
+languageName = "English"
+languageCode = "en"
+title = "About me"
+weight = 1
+contentDir = "content/en"
+
+[languages.en.params]
+name = "Viktor Konev"
+location = "Moscow, Russia"
+description = "Java/Kotlin backend dev."
+profile_image = "/images/profile.jpg"
+github = "https://github.com/Ulllie"
+github_username = "ulllie"
+email = "ulllie21@gmail.com"
+telegram = "https://t.me/Ulllie99"
+
+[[languages.en.menu.main]]
+name = "Blog"
+pageRef = "/blogs"
+weight = 40
+
+[languages.ru]
+languageName = "Русский"
+languageCode = "ru"
+title = "Обо мне"
+weight = 2
+contentDir = "content/ru"
+
+[languages.ru.params]
+name = "Виктор Конев"
+location = "Москва, Россия"
+description = "Java/Kotlin backend‑разработчик"
+profile_image = "/images/profile.jpg"
+github = "https://github.com/Ulllie"
+github_username = "ulllie"
+email = "ulllie21@gmail.com"
+telegram = "https://t.me/Ulllie99"
+
+[[languages.ru.menu.main]]
+name = "Блог"
+pageRef = "/blogs"
+weight = 40

@@ -1,0 +1,48 @@
+[[experience]]
+role = "Senior Developer"
+company = "Alfa Bank"
+company_link = "https://alfabank.ru"
+period = "April 2025 – Present"
+country = "RU"
+description = "NDA :)"
+technologies = ["Java", "Spring", "Project Loom", "MongoDB"]
+
+[[experience]]
+role = "Middle+ Developer"
+company = "T-bank (ex Tinkoff)"
+company_link = "https://www.tbank.ru/"
+period = "April 2024 – April 2025"
+country = "RU"
+description = """
+Joined the team as the first engineer after the team lead, so I designed and built a large-scale product-storage system from scratch. Along the way I set up backend processes and onboarded new teammates.
+
+Key achievements:
+- Implemented product ingestion from various sources via Kafka, persisting data to a distributed Cassandra cluster.
+- Built a geo-availability service that lets clients check stock in the store nearest to them.
+- Squeezed maximum performance out of Postgres despite tight disk I/O limits.
+- Enabled full observability for every service.
+
+We handled high load (peaks of ~10 k RPS) with strict reliability targets. The catalog held 100 M+ products and about 300 M store-specific SKUs.
+
+Every API shipped with clear SLOs and an internal SLA; I published metrics and set up alerts so we could catch issues early.
+"""
+technologies = ["Java", "Spring", "Postgres", "Cassandra"]
+
+[[experience]]
+role = "Middle+ Developer"
+company = "VTB"
+company_link = "https://www.vtb.ru/"
+period = "November 2022 – April 2024"
+country = "RU"
+description = """
+Built microservices from scratch and drove them into production using TeamCity.
+
+Stack: Kotlin backend with a fully reactive stack (Coroutines + WebFlux + R2DBC).
+
+Together with the team I created a CMS for the entire insurance stream, which came with plenty of complex business logic that I both implemented and maintained.
+
+Introduced new tools and practices to the team: JOOQ, TestContainers, WebTest (Spring MockMvc).
+
+Also mentored incoming developers, helping them master Kotlin and the reactive stack, and guided them during their first steps on the project.
+"""
+technologies = ["Kotlin", "Spring", "WebFlux", "Postgres", "R2DBC"]

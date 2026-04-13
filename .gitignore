@@ -1,3 +1,9 @@
+# Hugo build output
+about-me/public/
+about-me/resources/
+about-me/.hugo_build.lock
+
+
 # OS / IDE
 .DS_Store
 .idea/
