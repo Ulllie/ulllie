@@ -1,0 +1,234 @@
+﻿<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wallpaperRu" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#08090B"/>
+      <stop offset="0.55" stop-color="#0B0D10"/>
+      <stop offset="1" stop-color="#060709"/>
+    </linearGradient>
+    <pattern id="gridRu" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#B6BEC8" stroke-opacity="0.51" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="ambientRu" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(860 180) rotate(156.801) scale(698.134 317.629)">
+      <stop stop-color="#2A313B" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0B0D10" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="terminalBarRu" x1="0" y1="0" x2="0" y2="52" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#45424A"/>
+      <stop offset="1" stop-color="#3B3740"/>
+    </linearGradient>
+    <linearGradient id="terminalBodyRu" x1="280" y1="84" x2="920" y2="288" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#17171B"/>
+      <stop offset="1" stop-color="#121216"/>
+    </linearGradient>
+    <filter id="shadowRu" x="240" y="52" width="720" height="252" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="10"/>
+      <feGaussianBlur stdDeviation="14"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.04 0 0 0 0 0.03 0 0 0 0 0.09 0 0 0 0.45 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1" result="shape"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="24" fill="url(#wallpaperRu)"/>
+  <rect width="1200" height="320" rx="24" fill="url(#gridRu)" opacity="0.34"/>
+  <rect width="1200" height="320" rx="24" fill="url(#ambientRu)"/>
+
+  <g filter="url(#shadowRu)">
+    <rect x="280" y="72" width="640" height="230" rx="16" fill="url(#terminalBodyRu)" stroke="#5A5561" stroke-width="1.5"/>
+    <path d="M280 88C280 79.1634 287.163 72 296 72H904C912.837 72 920 79.1634 920 88V124H280V88Z" fill="url(#terminalBarRu)"/>
+
+    <circle cx="306" cy="98" r="8.5" fill="#FF5F57"/>
+    <circle cx="334" cy="98" r="8.5" fill="#FEBC2E"/>
+    <circle cx="362" cy="98" r="8.5" fill="#28C840"/>
+
+    <text x="600" y="103" text-anchor="middle" fill="#C9C5CF" font-size="23" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-weight="700">
+      ulllie
+    </text>
+
+    <text x="302" y="154" fill="#EDECF1" font-size="21" font-family="SFMono-Regular, Menlo, Consolas, monospace">
+      ulllie@github ~ %
+    </text>
+    <svg
+            x="515"
+            y="136"
+            width="140"
+            height="30"
+            viewBox="0 0 140 30"
+            preserveAspectRatio="xMinYMin meet"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+    >
+      <path id="whoamiPath">
+        <animate
+                id="whoamiD"
+                attributeName="d"
+                begin="0s"
+                dur="1800ms"
+                fill="freeze"
+                values="m0,18 h0 ; m0,18 h0 ; m0,18 h140 ; m0,18 h140"
+                keyTimes="0;0;0.93333333333333;1"
+        />
+      </path>
+      <text
+              font-family="SFMono-Regular, Menlo, Consolas, monospace"
+              fill="#EDECF1"
+              font-size="21"
+              x="0%"
+              text-anchor="start"
+              letter-spacing="normal"
+      >
+        <textPath xlink:href="#whoamiPath">whoami</textPath>
+      </text>
+    </svg>
+
+    <svg
+            x="302"
+            y="144"
+            width="520"
+            height="124"
+            viewBox="0 0 520 160"
+            preserveAspectRatio="xMinYMin meet"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+    >
+      <path id="path0">
+        <animate
+                id="d0"
+                attributeName="d"
+                begin="2300ms"
+                dur="100ms"
+                fill="freeze"
+                values="m0,25 h0 ; m0,25 h0 ; m0,25 h520 ; m0,25 h520"
+                keyTimes="0;0;0.93333333333333;1"
+        />
+      </path>
+      <text
+              font-family="'SFMono-Regular', monospace"
+              fill="#C651F7"
+              font-size="27"
+              dominant-baseline="middle"
+              x="0%"
+              text-anchor="start"
+              letter-spacing="normal"
+      >
+        <textPath xlink:href="#path0">___</textPath>
+      </text>
+
+      <path id="path1">
+        <animate
+                id="d1"
+                attributeName="d"
+                begin="2300ms"
+                dur="2550ms"
+                fill="freeze"
+                values="m0,50 h0 ; m0,50 h0 ; m0,50 h520 ; m0,50 h520"
+                keyTimes="0;0.5;0.96666666666667;1"
+        />
+      </path>
+      <text
+              font-family="'SFMono-Regular', monospace"
+              fill="#C651F7"
+              font-size="27"
+              dominant-baseline="middle"
+              x="0%"
+              text-anchor="start"
+              letter-spacing="normal"
+      >
+        <textPath xlink:href="#path1">Java/Kotlin/Go backend engineer</textPath>
+      </text>
+
+      <path id="path2">
+        <animate
+                id="d2"
+                attributeName="d"
+                begin="2300ms"
+                dur="3825ms"
+                fill="freeze"
+                values="m0,75 h0 ; m0,75 h0 ; m0,75 h520 ; m0,75 h520"
+                keyTimes="0;0.66666666666667;0.97777777777778;1"
+        />
+      </path>
+      <text
+              font-family="'SFMono-Regular', monospace"
+              fill="#C651F7"
+              font-size="27"
+              dominant-baseline="middle"
+              x="0%"
+              text-anchor="start"
+              letter-spacing="normal"
+      >
+        <textPath xlink:href="#path2">Location: Moscow</textPath>
+      </text>
+
+      <path id="path3">
+        <animate
+                id="d3"
+                attributeName="d"
+                begin="2300ms"
+                dur="5100ms"
+                fill="freeze"
+                values="m0,100 h0 ; m0,100 h0 ; m0,100 h520 ; m0,100 h520"
+                keyTimes="0;0.75;0.98333333333333;1"
+        />
+      </path>
+      <text
+              font-family="'SFMono-Regular', monospace"
+              fill="#C651F7"
+              font-size="27"
+              dominant-baseline="middle"
+              x="0%"
+              text-anchor="start"
+              letter-spacing="normal"
+      >
+        <textPath xlink:href="#path3">Age: 26</textPath>
+      </text>
+
+      <path id="path4">
+        <animate
+                id="d4"
+                attributeName="d"
+                begin="2300ms"
+                dur="6375ms"
+                fill="freeze"
+                values="m0,125 h0 ; m0,125 h0 ; m0,125 h520 ; m0,125 h520"
+                keyTimes="0;0.8;0.98666666666667;1"
+        />
+      </path>
+      <text
+              font-family="'SFMono-Regular', monospace"
+              fill="#C651F7"
+              font-size="27"
+              dominant-baseline="middle"
+              x="0%"
+              text-anchor="start"
+              letter-spacing="normal"
+      >
+        <textPath xlink:href="#path4">Work since 2020</textPath>
+      </text>
+
+      <path id="path5">
+        <animate
+                id="d5"
+                attributeName="d"
+                begin="2300ms"
+                dur="7650ms"
+                fill="freeze"
+                values="m0,150 h0 ; m0,150 h0 ; m0,150 h520 ; m0,150 h520"
+                keyTimes="0;0.83333333333333;0.98888888888889;1"
+        />
+      </path>
+      <text
+              font-family="'SFMono-Regular', monospace"
+              fill="#C651F7"
+              font-size="27"
+              dominant-baseline="middle"
+              x="0%"
+              text-anchor="start"
+              letter-spacing="normal"
+      >
+        <textPath xlink:href="#path5">^,^</textPath>
+      </text>
+    </svg>
+  </g>
+</svg>
