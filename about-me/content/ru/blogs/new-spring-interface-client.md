@@ -1,6 +1,6 @@
 +++
 title = "HttpClient в Spring 7: замена FeignClient или нет?"
-date = 2026-04-04T18:14:00+03:00
+date = 2026-04-13T18:14:00+03:00
 draft = false
 description = "Как отказаться от FeignClient и перейти на новый Spring HttpClient"
 tags = ["spring", "HttpExchange", "HttpClient", "openapi", "java"]
